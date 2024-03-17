@@ -1,0 +1,8 @@
+{
+  "sepolia": {
+    "FameLadySociety": {
+      "address": "0x384fCcC4E11B95379831151a44D10096Ec568277",
+      "startBlock": 5461067
+    }
+  }
+}
