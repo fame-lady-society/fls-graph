@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum
     name: FameLadySociety
-    network: sepolia
+    network: mainnet
     source:
-      address: "0x9EFf37047657a0f50b989165b48012834eDB2212"
+      address: "0x6cF4328f1Ea83B5d592474F9fCDC714FAAfd1574"
       abi: FameLadySociety
-      startBlock: 5461067
+      startBlock: 17087702
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
