@@ -30,6 +30,8 @@ dataSources:
           handler: handleApproval
         - event: ApprovalForAll(indexed address,indexed address,bool)
           handler: handleApprovalForAll
+        - event: MetadataUpdate(uint256)
+          handler: handleMetadataUpdate
         - event: BatchMetadataUpdate(uint256,uint256)
           handler: handleBatchMetadataUpdate
         - event: Transfer(indexed address,indexed address,indexed uint256)
